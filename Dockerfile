@@ -1,4 +1,4 @@
-FROM python:3.8
+FROM python:3.6-alpine
 MAINTAINER someshugar@gmail.com
 COPY . /devtest
 WORKDIR /devtest
